@@ -1,0 +1,25 @@
+name: LegacyPit
+main: me.stitchie.legacypit.LegacyPit
+author: Stitchie
+version: 0.01
+depend: [ ProtocolLib ]
+commands:
+  setplayertag:
+    description: Test
+    usage: /setplayertag player
+    permission: legacypit.setplayertag
+  spawn:
+    description: Go back to spawn
+    aliases: [ '/respawn' ]
+  setbounty:
+    description: Test
+    permission: legacypit.setbounty
+  events:
+    description: Show events
+    permission: legacypit.eventscommand
+  testmethod:
+    description: Test code
+    permission: legacypit.testmethod
+  tntgui:
+    description: TNT Gui
+    permission: legacypit.tntgui
